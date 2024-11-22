@@ -1,0 +1,125 @@
+body
+{
+    background: url(../img/hero-img.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+
+.container
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.75);
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    padding: 70px;
+}
+
+.container_overlay{
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.container h2
+{
+    color: #fff;
+    font-size: 2rem;
+}
+
+/* form */
+.container form
+{
+  margin: 25px 0 65px;
+}
+.form-control
+{
+    height: 50px;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-control label
+{
+    position: absolute;
+    color: var(--gray-text);
+    left: 20px;
+    top: 50%;
+    font-size: 1rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.1s linear;
+}
+
+.form-control input
+{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: var(--dark);
+    padding: 0 20px;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+.form-control input:is(:focus, :valid) {
+    background: var(--dark-lighten);
+    padding: 16px 20px 0;
+}
+.form-control input:is(:focus, :valid) ~ label
+{
+    font-size: 0.75rem;
+    transform: translateY(-130%);
+}
+
+/* button */
+button
+{
+    width: 100%;
+    color: #fff;
+    font-weight: 700;
+    height: 50px;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: red;
+    transition: background-color 0.2s linear;
+    margin: 25px 0 10px;
+}
+
+button:hover
+{
+    background-color: var(--red);
+}
+
+/* form help */
+.form-help
+{
+    color: var(--gray-text);
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.form-help a
+{
+    color: var(--gray-text);
+    font-size: 14px;
+    text-decoration: none;
+}.form-help a:hover
+{
+    text-decoration: underline;
+}
+
+/* Sign up now */
+
+.container p
+{
+    color: var(--gray-text);
+}
+
+.container a
+{
+    color: #fff;
+}
