@@ -1,0 +1,18 @@
+Hero section trong website là phần đầu tiên mà người dùng thấy khi truy cập vào trang web. 
+Đây là khu vực nổi bật, thường được đặt ngay phía trên đầu trang (above the fold), 
+và có mục đích thu hút sự chú ý của người dùng ngay lập tức. Hero section thường có một số đặc điểm sau:
+
+    1. Hình ảnh hoặc video lớn: Một hình ảnh hoặc video bắt mắt, 
+    có thể là hình nền hoặc một đoạn video liên quan đến sản phẩm, 
+    dịch vụ, hoặc thông điệp chính mà trang web muốn truyền tải.
+
+    2. Tiêu đề (Headline): Một tiêu đề nổi bật, ngắn gọn và dễ hiểu, 
+    giúp người dùng nhanh chóng nắm bắt được mục tiêu hoặc giá trị chính của website.
+
+    3. Đoạn mô tả ngắn (Subheadline): Thông tin bổ sung giúp giải thích rõ hơn về 
+    tiêu đề hoặc cung cấp thêm ngữ cảnh về sản phẩm/dịch vụ.
+
+    4. Call to Action (CTA): Một nút hành động (button) rõ ràng, thường là "Mua ngay",
+    "Tìm hiểu thêm", "Đăng ký", hoặc một lời mời hành động khác, nhằm chuyển hướng người dùng sang bước tiếp theo.
+
+Hero section đóng vai trò quan trọng trong việc tạo ấn tượng đầu tiên và thu hút người dùng tiếp tục tìm hiểu về website.

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindx Cinema</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- logo -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- <div class="backdrop">
+    <img src="./assets/loading.svg" alt="" />
+    </div> -->
+    <div class="navbar">
+        <!-- Logo -->
+        <a href="" class="navnar__logo">
+            <span>Mind <span style="color: var(--red);">X</span> Cinema</span>
+        </a>
+        <!-- Control -->
+        <div class="navbar__control" style="display: flex; gap: 15px;">
+            <a href="" class="navbar__search">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+            </a>
+            <a href="" class="navbar__user" id="avatar-action-container">
+                <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+            </a>
+        </div>
+    </div>
+    
+    <div class="hero-section">
+        <img id="hero-img" class="hero-img" onload="this.style.opacity = '0.5'">
+        <div class="hero-section__info">
+            <h1 id="hero-title" class="hero-title"></h1>
+            <p id="hero-description" class="hero-description"></p>
+            <div class="hero-section__action">
+                <a id="watch-now-btn" class="btn">
+                    <i class="fa-regular fa-circle-play"></i>
+                    <span>Watch Now</span>
+                </a>
+                <a id="view-info-btn" class="btn">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <span>View Info</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-section__preview">
+            <img id="hero-img-preview" onload="this.style.opacity = '1'">
+        </div>
+    </div>
+
+    <main></main>
+
+    <div class="footer">
+        <span>Copyright © MindX School</span>
+        <div class="footer__contact">
+            <span>Contact: </span>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script src="./js/index.js"></script>
+    <script src="./js/home.js"></script>
+</body>
+
+</html>
